@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { MyCarousel } from './MyCarousel';
+import { Titulo } from './components/Titulo';
+import { ToggleVisibility } from './components/ToggleVisibility';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <Titulo />
+      <header className='App-header'>
+        <ToggleVisibility>
+          <MyCarousel />
+        </ToggleVisibility>
       </header>
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,25 @@
+.titulo_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  float: left;
+  height: 100vh;
+  background-color: #464a5c;
+  box-shadow: 1px 2px 40px rgba(0, 0, 0, 0.699);
+  color: white;
+}
+
+.titulo_container p {
+  padding-left: 50px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-size: 5em;
+    padding: 50px;
+  }
+
+
+  
