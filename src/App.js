@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import { MyCarousel } from './MyCarousel';
 import { Titulo } from './components/Titulo';
 import { ToggleVisibility } from './components/ToggleVisibility';
