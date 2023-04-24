@@ -5,13 +5,20 @@
   flex-wrap: wrap;
   float: left;
   height: 100vh;
-  background-color: #464a5c;
-  box-shadow: 1px 2px 40px rgba(0, 0, 0, 0.699);
-  color: white;
+  width: 60vh;
+  background-color: #dadef7;
+  box-shadow: 15px 2px 40px rgba(0, 0, 0, 0.699);
+  color: #363d49;
+  /*background-image: url(../img/texture.jpg) ; Se mudar de ideia é só tirar essa imagem*/
 }
 
 .titulo_container p {
   padding-left: 50px;
+  padding-right: 50px;
+  margin-top: -10px;
+  font-size: 1em;
+  flex-wrap: wrap;
+  word-wrap: inherit;
 }
 
 .titulo {
@@ -19,7 +26,8 @@
     align-items: center;
     font-size: 5em;
     padding: 50px;
-  }
+    flex-wrap: wrap;
+}
 
 
   

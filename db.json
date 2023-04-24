@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "name": "Exercício",
+            "id": 1,
+            "enunc": "Escreva uma função que coloque todos os zeros de um array no final:",
+            "imagem": "./img/img1.png"
+        },
+        {
+            "name": "Exercício",
+            "id": 2,
+            "enunc": "Escreva uma função que encontre o elemento que aparece mais vezes em um array, exemplo:",
+            "enuncdois": "Input : array(1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 6) Output : 5",
+            "imagem": "./img/img2.png"
+        },
+        {
+            "name": "Exercício",
+            "id": 3,
+            "enunc": "Escreva uma função que retorne à quantidade de caracteres da última palavra em uma frase:",
+            "enuncdois": "Input: “Estou praticando exercícios” Output: 10",
+            "imagem": "./img/img3.png"
+        },
+        {
+            "name": "Exercício",
+            "id": 4,
+            "enunc": "Escreva uma função que retorne o número que aparece o número ímpar de vezes em um array:",
+            "enuncdois": "Input : array(4, 5, 4, 5, 2, 2, 3, 3, 2, 4, 4) Output : 2",
+            "imagem": "./img/img4.png"
+        },
+        {
+            "name": "Exercício",
+            "id": 5,
+            "enunc": "Escreva uma função que retorne true caso uma palavra seja um palíndromo:",
+            "enuncdois": "(palavra que lendo de trás para frente possui o mesmo significado, exemplo: osso)",
+            "imagem": "./img/img5.png"
+        },
+        {
+            "name": "Exercício",
+            "id": 6,
+            "enunc": "Crie uma função que mascare números de um cartão de crédito:",
+            "imagem": "./img/img6.png"
+        },
+        {
+            "name": "Exercício",
+            "id": 7,
+            "enunc": "Escreva uma função que inverta as posições dos elementos dentro de um array:",
+            "enuncdois": "Input: array(5, 3, 1, 15)  Output: array(15, 1, 3, 5)",
+            "imagem": "./img/img7.png"
+        },
+        {
+            "name": "Exercício",
+            "id": 8,
+            "enunc": "Crie uma função que encontre o elemento N que, somado a outro elemento N ou K dentro de um array, resulte na soma 6:",
+            "enuncdois": "Não deve ser utilizado loops para resolver esse exercício.",
+            "imagem": "./img/img8.png"
+        }
+    ]
+}

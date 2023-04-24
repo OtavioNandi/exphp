@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { MyCarousel } from './MyCarousel';
 import { Titulo } from './components/Titulo';
@@ -15,7 +16,7 @@ function App() {
         </ToggleVisibility>
       </header>
     </>
-  );
+  )
 }
 
 export default App;
