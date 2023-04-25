@@ -53,6 +53,12 @@
             "enunc": "Crie uma função que encontre o elemento N que, somado a outro elemento N ou K dentro de um array, resulte na soma 6:",
             "enuncdois": "Não deve ser utilizado loops para resolver esse exercício.",
             "imagem": "./img/img8.png"
+        },
+        {
+            "name": "Exercício",
+            "id": "Bônus",
+            "enunc": "Me desafiei a fazer os 3 primeiros exercícios com apenas uma variável e duas linhas de código",
+            "imagem": "./img/imgbonus.png"
         }
     ]
 }
