@@ -9,7 +9,7 @@ export const MyCarousel = () => {
     const [recycler, setRecycler] = useState('true');
 
     useEffect(() => {
-      fetch("http://localhost:5000/projects", {
+      fetch("https://json-server-iota-black.vercel.app/projects", {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',
