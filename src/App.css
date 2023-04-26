@@ -107,7 +107,7 @@ a.carousel-control-prev:hover {
   .carousel-inner {
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     flex-wrap: wrap;
     padding: 10px;
