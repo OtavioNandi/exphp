@@ -62,6 +62,10 @@
         left: 0px;
     }
 
+    .botao_mostrar p { 
+        border-radius: 30px;
+    }
+
     .botao_mostrar:hover {
         font-size: 2em;
     }
