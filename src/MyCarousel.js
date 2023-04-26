@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Confetti from 'react-confetti';
+import { Loading } from './components/Loading';
 
 export const MyCarousel = () => {
     const [darkBackground, setDarkBackground] = useState('');
     const [projects, setProjects] = useState([]);
+    const [removeLoading, setRemoveLoading] = useState(false);
     const [recycler, setRecycler] = useState('true');
 
     useEffect(() => {
@@ -19,6 +21,7 @@ export const MyCarousel = () => {
         .then((data) => {
           console.log(data)
           setProjects(data)
+          setRemoveLoading(true)
         })
         .catch((err) => console.log(err))
     }, [])
@@ -49,7 +52,7 @@ export const MyCarousel = () => {
                       />
                     </>            
                     }
-                    <div style={{filter: darkBackground}}>
+                    <div style={{filter: darkBackground}}>              
                       <h1>{project.name} <span>{project.id}</span> </h1>
                       <p>{project.enunc}</p>
                       <p>{project.enuncdois}</p>
@@ -65,6 +68,11 @@ export const MyCarousel = () => {
                   </Carousel.Item>
                 ))
               }
+              {!removeLoading && <Loading />}
+              {removeLoading && projects.length === 0  && (
+                <h1>You have no projects yet : <span>&#40;</span> </h1>
+                )
+              } 
             </Carousel>
           </header>
         </div>
