@@ -116,5 +116,10 @@ a.carousel-control-prev:hover {
     color: rgb(214, 78, 157);
     width: 50%;
   }
+
+  .imagem:hover {
+    transform: scale(2);
+    background-color: #dadef7;
+  }
   
 }

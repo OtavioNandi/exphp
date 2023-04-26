@@ -39,7 +39,7 @@
     height: 100%;
     width: 100%;
     background-color: #dadef7;
-    box-shadow: 15px 3px 40px rgba(0, 0, 0, 0.699);
+    box-shadow: 3px 15px 40px rgba(0, 0, 0, 0.699);
     color: #363d49;
     /*background-image: url(../img/texture.jpg) ; Se mudar de ideia é só tirar essa imagem*/
   }
