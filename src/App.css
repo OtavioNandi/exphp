@@ -107,14 +107,19 @@ a.carousel-control-prev:hover {
   .carousel-inner {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     flex-wrap: wrap;
+    padding: 10px;
   }
 
   .carousel-inner h1 span{
     color: rgb(214, 78, 157);
     width: 50%;
+  }
+
+  .imagem{
+    transform: scale(1.5);
   }
 
   .imagem:hover {
@@ -123,11 +128,11 @@ a.carousel-control-prev:hover {
   }
 
   span.carousel-control-prev-icon {
-    transform: scale(1.8);
+    transform: scale(1.5);
   }
   
   span.carousel-control-next-icon {
-    transform: scale(1.8);
+    transform: scale(1.5);
   }
   
   a.carousel-control-next {

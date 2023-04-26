@@ -54,7 +54,7 @@
     .botao_mostrar::before {
         content: "";
         background-image: url(../img/img11.png);
-        filter: blur(6px) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><filter id="a"><feComponentTransfer><feFuncA type="linear" slope="10"/></feComponentTransfer></filter>#a');
+        filter: blur(4px) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><filter id="a"><feComponentTransfer><feFuncA type="linear" slope="10"/></feComponentTransfer></filter>#a');
         position: absolute;
         top: 0px;
         right: 0px;
