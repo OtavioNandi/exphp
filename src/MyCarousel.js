@@ -38,8 +38,7 @@ export const MyCarousel = () => {
                     onMouseOver={() => {setRecycler(false)}} 
                     onMouseLeave={() => {setRecycler(true)}}
                   >
-                    {project.id === "Bônus" && 
-                    <>             
+                    {project.id === "Bônus" &&              
                       <Confetti
                         className='confetti'
                         width='1400vh'
@@ -50,7 +49,6 @@ export const MyCarousel = () => {
                         friction={0.999}
                         wind={0.01}
                       />
-                    </>            
                     }
                     <div style={{filter: darkBackground}}>              
                       <h1>{project.name} <span>{project.id}</span> </h1>
