@@ -19,6 +19,7 @@
   font-size: 1em;
   flex-wrap: wrap;
   word-wrap: inherit;
+  width: fit-content;
 }
 
 .titulo {
@@ -27,6 +28,29 @@
     font-size: 5em;
     padding: 50px;
     flex-wrap: wrap;
+}
+
+@media(max-width: 1000px) {
+  .titulo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 130%;
+    background-color: #dadef7;
+    box-shadow: 15px 3px 40px rgba(0, 0, 0, 0.699);
+    color: #363d49;
+    /*background-image: url(../img/texture.jpg) ; Se mudar de ideia é só tirar essa imagem*/
+  }
+
+  .titulo {
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    padding: 50px;
+    flex-wrap: wrap;
+}
 }
 
 /*  cor reserva para o título #464a5c */

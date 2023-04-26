@@ -78,3 +78,43 @@ a.carousel-control-prev:hover {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+@media(max-width: 1000px) {
+  .general {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .App {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .App-header {
+    background-color: #363d49;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+    position: relative;
+    width: 130%;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 130%;
+    flex-wrap: wrap;
+  }
+
+  .carousel-inner h1 span{
+    color: rgb(214, 78, 157);
+    width: 50%;
+  }
+  
+}

@@ -8,14 +8,14 @@ import { ToggleVisibility } from './components/ToggleVisibility';
 
 function App() {
   return (
-    <>
+    <div className='general'>
       <Titulo />
       <header className='App-header'>
         <ToggleVisibility>
           <MyCarousel />
         </ToggleVisibility>
       </header>
-    </>
+    </div>
   )
 }
 
