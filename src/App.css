@@ -131,10 +131,12 @@ a.carousel-control-prev:hover {
 
   span.carousel-control-prev-icon {
     transform: scale(1.5);
+    opacity: 0;
   }
   
   span.carousel-control-next-icon {
     transform: scale(1.5);
+    opacity: 0;
   }
   
   a.carousel-control-next {
