@@ -121,5 +121,34 @@ a.carousel-control-prev:hover {
     transform: scale(2);
     background-color: #dadef7;
   }
+
+  span.carousel-control-prev-icon {
+    transform: scale(1.8);
+  }
+  
+  span.carousel-control-next-icon {
+    transform: scale(1.8);
+  }
+  
+  a.carousel-control-next {
+    width: 25%;
+    margin-right: 0px;
+    transition: all 0.4s;
+  }
+  
+  a.carousel-control-next:hover {
+   background-color: #5e637500;
+  }
+  
+  a.carousel-control-prev {
+    width: 25%;
+    margin-left: 0px;
+    transition: all 0.4s;
+  }
+  
+  a.carousel-control-prev:hover {
+    background-color: #5e637500;
+  }
+  
   
 }

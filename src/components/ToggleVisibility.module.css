@@ -45,7 +45,7 @@
         border: none;
         height: 100vh;
         width: 100%;
-        font-size: 3em;
+        font-size: 2em;
         color: white;
         transition: all 0.5s;
     
@@ -63,6 +63,6 @@
     }
 
     .botao_mostrar:hover {
-        font-size: 1em;
+        font-size: 2em;
     }
 }
