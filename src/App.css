@@ -22,32 +22,21 @@
   color: rgb(214, 78, 157);
 }
 
-span.carousel-control-prev-icon {
-  transform: scale(1.8);
-}
-
+span.carousel-control-prev-icon,
 span.carousel-control-next-icon {
   transform: scale(1.8);
 }
 
-a.carousel-control-next {
+a.carousel-control-next,
+a.carousel-control-prev {
   width: 130px;
   margin-right: 0px;
   transition: all 0.4s;
 }
 
-a.carousel-control-next:hover {
- background-color: #5e63752d;
-}
-
-a.carousel-control-prev {
-  width: 130px;
-  margin-left: 0px;
-  transition: all 0.4s;
-}
-
+a.carousel-control-next:hover,
 a.carousel-control-prev:hover {
-  background-color: #5e63752d;
+ background-color: #5e63752d;
 }
 
 .imagem{
@@ -85,38 +74,21 @@ a.carousel-control-prev:hover {
     flex-direction: column;
   }
 
-  .App {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
   .App-header {
     background-color: #303d53;
-    display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 1.2em;
-    color: white;
     position: relative;
     width: 100%;
   }
   
   .carousel-inner {
-    display: flex;
-    align-items: center;
     height: 100vh;
     width: 100%;
     flex-wrap: wrap;
     padding: 10px;
     font-size: 0.9em;
-  }
-
-  .carousel-inner h1 span{
-    color: rgb(214, 78, 157);
-    width: 50%;
   }
 
   .imagem{
@@ -129,38 +101,20 @@ a.carousel-control-prev:hover {
     background-color: #dadef7;
   }
 
-  span.carousel-control-prev-icon {
-    transform: scale(1.5);
+  span.carousel-control-prev-icon, 
+  span.carousel-control-next-icon{
     opacity: 0;
   }
   
-  span.carousel-control-next-icon {
-    transform: scale(1.5);
-    opacity: 0;
-  }
-  
-  a.carousel-control-next {
+  a.carousel-control-next,
+  a.carousel-control-prev {
     width: 25%;
     margin-right: 0px;
     transition: all 0.4s;
   }
   
-  a.carousel-control-next:hover {
+  a.carousel-control-next:hover,
+  a.carousel-control-prev:hover {
    background-color: #5e637500;
   }
-  
-  a.carousel-control-prev {
-    width: 25%;
-    margin-left: 0px;
-    transition: all 0.4s;
-  }
-  
-  a.carousel-control-prev:hover {
-    background-color: #5e637500;
-  }
-  
-  .confetti {
-    opacity: 1;
-  }
-  
 }
