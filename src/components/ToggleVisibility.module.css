@@ -69,5 +69,6 @@
 
     .botao_mostrar:hover {
         font-size: 2em;
+        text-shadow: none;
     }
 }
