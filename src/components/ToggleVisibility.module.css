@@ -65,10 +65,10 @@
     .botao_mostrar p { 
         border-radius: 30px;
         background-color: #acacac;
+        text-shadow: none;
     }
 
     .botao_mostrar:hover {
         font-size: 2em;
-        text-shadow: none;
     }
 }
