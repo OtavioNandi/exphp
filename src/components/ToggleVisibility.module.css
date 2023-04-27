@@ -64,6 +64,7 @@
 
     .botao_mostrar p { 
         border-radius: 30px;
+        background-color: #acacac;
     }
 
     .botao_mostrar:hover {
